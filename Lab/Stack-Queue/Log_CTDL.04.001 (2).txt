@@ -1,0 +1,14 @@
+Compiling 
+g++ -c main.cpp -std=c++11 -DUSE_SOME_DEF
+g++ main.o -std=c++11 -o assignment -DUSE_SOME_DEF
+Running...
+Testcase 001 [5 ms]: PASSED
+Testcase 002 [5 ms]: PASSED
+Testcase 003 [5 ms]: PASSED
+Testcase 004 [137 ms]: FAILED
+Testcase 005 [136 ms]: FAILED
+Testcase 006 [6 ms]: PASSED
+Testcase 007 [136 ms]: FAILED
+Testcase 008 [5 ms]: PASSED
+Testcase 009 [5 ms]: PASSED
+Testcase 010 [140 ms]: FAILED

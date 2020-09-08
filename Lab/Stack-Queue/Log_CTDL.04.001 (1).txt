@@ -1,0 +1,19 @@
+Compiling 
+g++ -c main.cpp -std=c++11 -DUSE_SOME_DEF
+main.cpp: In instantiation of 'T& Stack<T>::top() [with T = int]':
+main.cpp:92:41:   required from here
+main.cpp:165:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  165 | }
+      | ^
+g++ main.o -std=c++11 -o assignment -DUSE_SOME_DEF
+Running...
+Testcase 001 [325 ms]: FAILED
+Testcase 002 [148 ms]: FAILED
+Testcase 003 [140 ms]: FAILED
+Testcase 004 [135 ms]: FAILED
+Testcase 005 [139 ms]: FAILED
+Testcase 006 [141 ms]: FAILED
+Testcase 007 [138 ms]: FAILED
+Testcase 008 [5 ms]: PASSED
+Testcase 009 [166 ms]: FAILED
+Testcase 010 [164 ms]: FAILED

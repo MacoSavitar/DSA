@@ -1,0 +1,9 @@
+Compiling 
+g++ -c main.cpp -std=c++11 -DUSE_SOME_DEF
+main.cpp: In member function 'int L1List<T>::remove(int)':
+main.cpp:306:9: error: 'size' was not declared in this scope; did you mean '_size'?
+  306 |         size-=1;
+      |         ^~~~
+      |         _size
+make: *** [Makefile:9: main.o] Error 1
+Cannot compile

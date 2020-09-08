@@ -1,0 +1,28 @@
+Compiling 
+g++ -c main.cpp -std=c++11 -DUSE_SOME_DEF
+main.cpp: In member function 'const Polynomial& Polynomial::operator=(const Polynomial&)':
+main.cpp:211:1: warning: control reaches end of non-void function [-Wreturn-type]
+  211 | }
+      | ^
+g++ main.o -std=c++11 -o assignment -DUSE_SOME_DEF
+Running...
+Testcase 001 [5 ms]: FAILED
+Testcase 002 [5 ms]: FAILED
+Testcase 003 [6 ms]: FAILED
+Testcase 004 [5 ms]: FAILED
+Testcase 005 [5 ms]: FAILED
+Testcase 006 [5 ms]: FAILED
+Testcase 007 [6 ms]: FAILED
+Testcase 008 [5 ms]: FAILED
+Testcase 009 [5 ms]: FAILED
+Testcase 010 [6 ms]: FAILED
+Testcase 011 [5 ms]: FAILED
+Testcase 012 [5 ms]: FAILED
+Testcase 013 [5 ms]: FAILED
+Testcase 014 [5 ms]: FAILED
+Testcase 015 [5 ms]: FAILED
+Testcase 016 [5 ms]: PASSED
+Testcase 017 [5 ms]: FAILED
+Testcase 018 [5 ms]: FAILED
+Testcase 019 [6 ms]: FAILED
+Testcase 020 [5 ms]: FAILED

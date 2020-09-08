@@ -1,0 +1,28 @@
+Compiling 
+g++ -c main.cpp -std=c++11 -DUSE_SOME_DEF
+main.cpp: In function 'int lengthOfLonggestCommonSubstring(const char*, const char*, int, int)':
+main.cpp:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+   28 | }
+      | ^
+g++ main.o -std=c++11 -o assignment -DUSE_SOME_DEF
+Running...
+Testcase 1: FAILED (Exceeded 5 s)
+Testcase 10: FAILED (Exceeded 5 s)
+Testcase 11: FAILED (Exceeded 5 s)
+Testcase 12: FAILED (Exceeded 5 s)
+Testcase 13: FAILED (Exceeded 5 s)
+Testcase 14: FAILED (Exceeded 5 s)
+Testcase 15: FAILED (Exceeded 5 s)
+Testcase 16: FAILED (Exceeded 5 s)
+Testcase 17: FAILED (Exceeded 5 s)
+Testcase 18: FAILED (Exceeded 5 s)
+Testcase 19: FAILED (Exceeded 5 s)
+Testcase 2: FAILED (Exceeded 5 s)
+Testcase 20: FAILED (Exceeded 5 s)
+Testcase 3: FAILED (Exceeded 5 s)
+Testcase 4: FAILED (Exceeded 5 s)
+Testcase 5: FAILED (Exceeded 5 s)
+Testcase 6: FAILED (Exceeded 5 s)
+Testcase 7: FAILED (Exceeded 5 s)
+Testcase 8: FAILED (Exceeded 5 s)
+Testcase 9: FAILED (Exceeded 5 s)

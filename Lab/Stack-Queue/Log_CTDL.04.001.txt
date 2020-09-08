@@ -1,0 +1,47 @@
+Compiling 
+g++ -c main.cpp -std=c++11 -DUSE_SOME_DEF
+main.cpp: In member function 'void Stack<T>::clear()':
+main.cpp:112:14: error: missing template arguments before '*' token
+  112 |         Node *pDlt = head;
+      |              ^
+main.cpp:112:15: error: 'pDlt' was not declared in this scope
+  112 |         Node *pDlt = head;
+      |               ^~~~
+main.cpp: In member function 'void Stack<T>::push(const T&)':
+main.cpp:133:7: error: missing template arguments before '*' token
+  133 |  Node *pNew = new Node(val);
+      |       ^
+main.cpp:133:8: error: 'pNew' was not declared in this scope
+  133 |  Node *pNew = new Node(val);
+      |        ^~~~
+main.cpp:133:19: error: expected type-specifier before 'Node'
+  133 |  Node *pNew = new Node(val);
+      |                   ^~~~
+main.cpp:133:18: error: expected ';' before 'Node'
+  133 |  Node *pNew = new Node(val);
+      |                  ^~~~~
+      |                  ;
+main.cpp: In member function 'int Stack<T>::pop(T&)':
+main.cpp:145:14: error: missing template arguments before '*' token
+  145 |         Node *p = head;
+      |              ^
+main.cpp:145:15: error: 'p' was not declared in this scope
+  145 |         Node *p = head;
+      |               ^
+main.cpp: In member function 'T& Stack<T>::top()':
+main.cpp:160:14: error: missing template arguments before '*' token
+  160 |         Node *pDlt = head;
+      |              ^
+main.cpp:160:15: error: 'pDlt' was not declared in this scope
+  160 |         Node *pDlt = head;
+      |               ^~~~
+main.cpp: In instantiation of 'T& Stack<T>::top() [with T = int]':
+main.cpp:92:41:   required from here
+main.cpp:163:16: error: cannot bind non-const lvalue reference of type 'int&' to an rvalue of type 'int'
+  163 |         return 1;
+      |                ^
+main.cpp:166:16: error: cannot bind non-const lvalue reference of type 'int&' to an rvalue of type 'int'
+  166 |         return 0;
+      |                ^
+make: *** [Makefile:9: main.o] Error 1
+Cannot compile

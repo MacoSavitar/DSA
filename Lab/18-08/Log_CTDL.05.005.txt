@@ -1,0 +1,28 @@
+Compiling 
+g++ -c main.cpp -std=c++11 -DUSE_SOME_DEF
+main.cpp: In member function 'Node<T>* BinarySearchTree<T>::searchRec(Node<T>*, const T&) [with T = int]':
+main.cpp:209:1: warning: control reaches end of non-void function [-Wreturn-type]
+  209 | }
+      | ^
+g++ main.o -std=c++11 -o assignment -DUSE_SOME_DEF
+Running...
+Testcase 001 [5 ms]: PASSED
+Testcase 002 [5 ms]: PASSED
+Testcase 003 [6 ms]: FAILED
+Testcase 004 [5 ms]: PASSED
+Testcase 005 [5 ms]: PASSED
+Testcase 006 [6 ms]: PASSED
+Testcase 007 [5 ms]: PASSED
+Testcase 008 [7 ms]: FAILED
+Testcase 009 [8 ms]: FAILED
+Testcase 010 [7 ms]: PASSED
+Testcase 011 [7 ms]: PASSED
+Testcase 012 [7 ms]: PASSED
+Testcase 013 [8 ms]: PASSED
+Testcase 014 [8 ms]: PASSED
+Testcase 015 [6 ms]: FAILED
+Testcase 016 [8 ms]: PASSED
+Testcase 017 [9 ms]: PASSED
+Testcase 018 [6 ms]: PASSED
+Testcase 019 [7 ms]: FAILED
+Testcase 020 [7 ms]: PASSED

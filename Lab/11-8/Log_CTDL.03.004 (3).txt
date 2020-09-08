@@ -1,0 +1,10 @@
+Compiling 
+g++ -c main.cpp -std=c++11 -DUSE_SOME_DEF
+main.cpp:347:6: error: redefinition of 'void L1List<T>::reverse()'
+  347 | void L1List<T>::reverse() {
+      |      ^~~~~~~~~
+main.cpp:319:6: note: 'void L1List<T>::reverse()' previously declared here
+  319 | void L1List<T>::reverse() {
+      |      ^~~~~~~~~
+make: *** [Makefile:9: main.o] Error 1
+Cannot compile
